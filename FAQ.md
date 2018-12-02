@@ -24,7 +24,7 @@ Yes. For example, three different test runs on three different days on the Pixel
 If a device is showing a difference of more than 1 (maximum 2) seconds between tests then showing isn't right then
 the device/environment/conditions need to be examined.
 
-## 7. Is it fair to compare a device on Android X compared to Android Y?
+## 7. Is it fair to compare a device running Android X.x with a device running a different version of Android, e.g. Android Y.y?
 Yes, for two reasons. First, this is a device test. This means that when you buy the device, this is what you get. If the device underperforms
 because of a software issue then consumers need to know that. Second, there are rarely major advances in Android performance from one version
 to the next. It does happen, for example when Android moved from Davlik to ART, but that doesn't happen every day! If and when that becomes
