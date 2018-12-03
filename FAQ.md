@@ -1,5 +1,8 @@
 # Speed Test G FAQ
 
+Speed Test G is a new performance testing system that takes the best parts of traditional speed tests and combines them with the benefits of benchmarks. For full details of how it works please watch this video: 
+[Speed Test G - A new way to test real life smartphone performance](https://www.youtube.com/watch?v=0dsQiw-G8O8).
+
 ## 1. Where can I download Speed Test G so I can try it on my device?
 You can't. Sorry. The sole reason is that I don't want smartphone makers to have access to this code and then try to "cheat" the system.
 The idea is that this test remains independent and trustworthy.
