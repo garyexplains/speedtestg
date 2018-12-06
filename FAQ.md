@@ -61,3 +61,6 @@ No. Each device records the total test time internally from with the Speed Test 
 ## 16. Does the screen resolution affect the performance? If device A has a lower resolution screen, won't it be quicker? Is that fair?
 Absolutely. And since this is a real-world test and not a theoretical test then that is what we are trying to test. If you buy device A,
 is the GPU powerful enough to handle the display at the native resolution? Remember these tests are device tests, not processor (SoC) tests. For example, the Pixel 3 completes the test 5 seconds quicker than the Pixel 3 XL. Why? Because both have the same processor but one has a smaller screen resolution.
+
+## 17. Will you add an AI/Neural Networks/NPU test
+That is certainly something that can be considered for V2.0. The simplest way would be to use the Android Neural Networks API. However, if the test was to become cross-platform (Android and iOS) then this would present a problem.
