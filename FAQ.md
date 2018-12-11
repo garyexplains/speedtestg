@@ -3,6 +3,8 @@
 Speed Test G is a new performance testing system that takes the best parts of traditional speed tests and combines them with the benefits of benchmarks. For full details of how it works please watch this video: 
 [Speed Test G - A new way to test real life smartphone performance](https://www.youtube.com/watch?v=0dsQiw-G8O8).
 
+If you want to see why Speed Test G exists, please watch this video: [5 Reasons Why Smartphone "Speed Tests" Are Fundamentally Flawed] (https://www.youtube.com/watch?v=W68nuVxOXaE)
+
 ## 1. Where can I download Speed Test G so I can try it on my device?
 You can't. Sorry. The sole reason is that I don't want smartphone makers to have access to this code and then try to "cheat" the system.
 The idea is that this test remains independent and trustworthy.
@@ -64,3 +66,6 @@ is the GPU powerful enough to handle the display at the native resolution? Remem
 
 ## 17. Will you add an AI/Neural Networks/NPU test
 That is certainly something that can be considered for V2.0. The simplest way would be to use the Android Neural Networks API. However, if the test was to become cross-platform (Android and iOS) then this would present a problem.
+
+## 18. Is there a Speed Test G playlist.
+Yes! [Speed Test G Playlist](https://www.youtube.com/playlist?list=PLxLxbi4e2mYF7bM129a7dW3Ulc9qLRdS3)
