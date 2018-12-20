@@ -43,7 +43,7 @@ The devices are used in their defaults configurations. If the relevant performan
 tested. Occasionally, if warranted, we may perform two tests, one with the mode enabled and one with it disabled.
 
 ## 10. Why haven't you tested Device SPQR? I have asked several times on social media or in the comments.
-For one of two reasons. 1) The device isn't that interesting. Sorry. 2) But more likely, I don't have access to that device at the moment. I don't have a huge box with every released device which I just open and take the device for the next video. Devices are expensive. Sometimes I can borrow a device. Sometimes my teammates have access to the device and I can use that. Sometimes I need to buy the device and hope to sell it afterwards.
+Could be for one of two reasons. 1) The device isn't that interesting. Sorry. 2) But more likely, I don't have access to that device at the moment. I don't have a huge box with every released device which I just open and take the device for the next video. Devices are expensive. Sometimes I can borrow a device. Sometimes my teammates have access to the device and I can use that. Sometimes I need to buy the device and hope to sell it afterwards.
 
 ## 11. Can the app show the individual tests times?
 Changes in that area are coming. Current plans are to show three times alongside the total time: "Mainly CPU", "Mixed CPU/GPU", "Mainly GPU".
@@ -69,3 +69,11 @@ That is certainly something that can be considered for V2.0. The simplest way wo
 
 ## 18. Is there a Speed Test G playlist.
 Yes! [Speed Test G Playlist](https://www.youtube.com/playlist?list=PLxLxbi4e2mYF7bM129a7dW3Ulc9qLRdS3)
+
+## 19. Is there a website with a leaderboard?
+There is not a leaderboard online (at the moment) as I am still trying to conceive a way to publish the information without creating a disincentive for people to watch the videos. In other words, if the data is on a leaderboard then you no longer need to watch the video. That doesn't help the channel.
+
+## 20. Can you show a leaderboard at the end of the video?
+I currently don't show a leaderboard at the ends of the video because most people don't watch these videos in chronological order, which means that the leaderboard will be a) out of date, b) irrelevant unless you watched all the videos, c) confusing viewers who arrive via a search, d) misleading in that it might make device A look better than it is because at the time of that particular video devices X or Y or Z hadn't yet been tested.
+Also see #19.
+
