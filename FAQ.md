@@ -17,7 +17,7 @@ possibility, not a short-term goal.
 Please see question #2.
 
 ## 4. Will you be making improvements to the test?
-Abolsultey. This is Speed Test G 1.0. At some point, I will release Speed Test G 2.0. Current aims include greater complexity, Unreal 3D tests alongside the Unity tests, possibly the use of Vulcan, and much more.
+Absolutely. This is Speed Test G 1.0. At some point, I will release Speed Test G 2.0. Current aims include greater complexity, Unreal 3D tests alongside the Unity tests, possibly the use of Vulcan, and much more.
 
 ## 5. Why don't you do 5/10/50/100 test runs to ensure that the results are consistent?
 Before recording, we do multiple test runs to ensure that the results we are seeing are correct. This includes running the tests from a known
