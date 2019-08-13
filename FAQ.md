@@ -71,7 +71,7 @@ That is certainly something that can be considered for V2.0. The simplest way wo
 Yes! [Speed Test G Playlist](https://www.youtube.com/playlist?list=PLxLxbi4e2mYF7bM129a7dW3Ulc9qLRdS3)
 
 ## 19. Is there a website with a leaderboard?
-There is not a leaderboard online (at the moment) as I am still trying to conceive a way to publish the information without creating a disincentive for people to watch the videos. In other words, if the data is on a leaderboard then you no longer need to watch the video. That doesn't help the channel.
+Yes! [SpeedTestG.com](http://speedtestg.com)
 
 ## 20. Can you show a leaderboard at the end of the video?
 I currently don't show a leaderboard at the ends of the video because most people don't watch these videos in chronological order, which means that the leaderboard will be a) out of date, b) irrelevant unless you watched all the videos, c) confusing viewers who arrive via a search, d) misleading in that it might make device A look better than it is because at the time of that particular video devices X or Y or Z hadn't yet been tested.
