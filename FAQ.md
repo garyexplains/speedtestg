@@ -10,8 +10,9 @@ You can't. Sorry. The sole reason is that I don't want smartphone makers to have
 The idea is that this test remains independent and trustworthy.
 
 ## 2. Can Speed Test G run on iOS?
-No. The test suite is written specifically for Android. In the future it may be possible to create a port to iOS, however, that is a long-term 
-possibility, not a short-term goal.
+No. The test suite is written specifically for Android. In the future it may be possible to create a port to iOS, however, that is a long-term possibility, not a short-term goal.
+
+Update: Android and iOS and radically different systems from a programmer's points of view. Obviously, Android apps don't run on iOS, and iOS apps don't run on Android. After looking into this there are three problems. 1) All the tests will need to be re-written completely for iOS (except for the Unity test). 2) If I want to compare Android with iOS, then all the tests for both OSes will need to be re-written completely using a common language/SDK that works across both OSes. 3) iOS doesn't allow one app to launch another app directly, which is an essential feature for these tests.
 
 ## 3. Can you compare the latest Snapdragon with the latest Apple processor?
 Please see question #2.
