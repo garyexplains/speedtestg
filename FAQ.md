@@ -6,7 +6,7 @@ Speed Test G is a new performance testing system that takes the best parts of tr
 If you want to see why Speed Test G exists, please watch this video: [5 Reasons Why Smartphone Speed Tests Are Fundamentally Flawed](https://www.youtube.com/watch?v=W68nuVxOXaE)
 
 ## History
-Speed Test G was launched in November 2018. In September/October 2019, Speed Test G 2.0 and Speed Test GX 2.0 were launched. For more information about V2.0 please watch these two videos: [Speed Test G 2.0 is Coming SOON!](https://www.youtube.com/watch?v=l8gFcyI2AaY) and [Speed Test G for iOS](https://www.youtube.com/watch?v=Dh6lz4gkgpY).
+Speed Test G was launched in November 2018. In September/October 2019, Speed Test G 2.0 and Speed Test GX 2.0 were launched. For more information about V2.0 Please watch these two videos: [Speed Test G 2.0 is Coming SOON!](https://www.youtube.com/watch?v=l8gFcyI2AaY) and [Speed Test G for iOS](https://www.youtube.com/watch?v=Dh6lz4gkgpY).
 
 ## Speed Test G YouTube Channel.
 Speed Test G videos appear on the [Gary Explains](https://youtube.com/c/garyexplains) and also on the dedicated [Speed Test G](https://youtube.com/c/speedtestg) channel. The difference? Major and important Speed Test G videos will be published on the GE channel, whereas videos with various combinations and permutations of devices will appear on the Speed Test G channel. Speed Test G videos are published more frequently on the dedicated channel, often 4 or 5 times per week.
@@ -19,7 +19,7 @@ The idea is that this test remains independent and trustworthy.
 Yes. As of Speed Test G 2.0, it is available for Android and iOS. There are two versions of Speed Test G 2.0. The vanilla Speed Test G 2.0 (for Android only) and the cross-platform Speed Test GX 2.0 (for Android and iOS). The suites are almost identical except that Speed Test G 2.0 contains two 3D tests, one written in Unity and one written in Unreal. The GX version only has the Unity test. When comparing cross-platform, GX times on one platform can be compared to GX times on the other. In other words, you can compare GX times on Android with GX times on iOS.
 
 ## 3. Can the results of Speed Test G 1.0 be compared with the results from Speed Test G 2.0 or Speed Test GX 2.0?
-No. Speed Test G 2.0 is a complete re-write and you can't compared the times.
+No. Speed Test G 2.0 is a complete re-write and you can't compare the times.
 
 ## 4. Will you be making improvements to the test?
 Abolsultey. First, there was Speed Test G 1.0, then Speed Test G 2.0 and Speed Test GX 2.0. Speed Test 3.0 will be developed at some point.
