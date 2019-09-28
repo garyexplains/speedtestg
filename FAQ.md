@@ -5,14 +5,18 @@ Speed Test G is a new performance testing system that takes the best parts of tr
 
 If you want to see why Speed Test G exists, please watch this video: [5 Reasons Why Smartphone Speed Tests Are Fundamentally Flawed](https://www.youtube.com/watch?v=W68nuVxOXaE)
 
+## History
+Speed Test G was launched in November 2018. In September/October 2019, Speed Test G 2.0 and Speed Test GX 2.0 were launched. For more information about V2.0 please watch these two videos: [Speed Test G 2.0 is Coming SOON!](https://www.youtube.com/watch?v=l8gFcyI2AaY) and [Speed Test G for iOS](https://www.youtube.com/watch?v=Dh6lz4gkgpY).
+
+## Speed Test G YouTube Channel.
+Speed Test G videos appear on the [Gary Explains](https://youtube.com/c/garyexplains) and also on the dedicated [Speed Test G](https://youtube.com/c/speedtestg) channel. The difference? Major and important Speed Test G videos will be published ion the GE channel, whereas more frequency videos with various combinations and permutations of devices will appear on the Speed Test G channel.
+
 ## 1. Where can I download Speed Test G so I can try it on my device?
 You can't. Sorry. The sole reason is that I don't want smartphone makers to have access to this code and then try to "cheat" the system.
 The idea is that this test remains independent and trustworthy.
 
 ## 2. Can Speed Test G run on iOS?
-No. The test suite is written specifically for Android. In the future it may be possible to create a port to iOS, however, that is a long-term possibility, not a short-term goal.
-
-Update: Android and iOS and radically different systems from a programmer's points of view. Obviously, Android apps don't run on iOS, and iOS apps don't run on Android. After looking into this there are three problems. 1) All the tests will need to be re-written completely for iOS (except for the Unity test). 2) If I want to compare Android with iOS, then all the tests for both OSes will need to be re-written completely using a common language/SDK that works across both OSes. 3) iOS doesn't allow one app to launch another app directly, which is an essential feature for these tests.
+Yes. As of Speed Test G 2.0, it is available for Android and iOS. There are two versions of Speed Test G 2.0. The vanilla Speed Test G 2.0 (for Android only) and the cross-platform Speed Test GX 2.0 (for Android and iOS). The suites are almost identical except that Speed Test G 2.0 contains two 3D tests, one written in Unity and one written in Unreal. The GX version only has the Unity test. When comparing cross-platform GX times on one platform can be compared to GX times on the other.
 
 ## 3. Can you compare the latest Snapdragon with the latest Apple processor?
 Please see question #2.
@@ -64,6 +68,9 @@ No. Each device records the total test time internally from with the Speed Test 
 ## 16. Does the screen resolution affect the performance? If device A has a lower resolution screen, won't it be quicker? Is that fair?
 Absolutely. And since this is a real-world test and not a theoretical test then that is what we are trying to test. If you buy device A,
 is the GPU powerful enough to handle the display at the native resolution? Remember these tests are device tests, not processor (SoC) tests. For example, the Pixel 3 completes the test 5 seconds quicker than the Pixel 3 XL. Why? Because both have the same processor but one has a smaller screen resolution.
+
+### OK, but I still want the devices to use the same screen resolution
+From time to time, when demand necessitates, I will also make videos with devices set to their non-default screen resolutions.
 
 ## 17. Will you add an AI/Neural Networks/NPU test
 That is certainly something that can be considered for V2.0. The simplest way would be to use the Android Neural Networks API. However, if the test was to become cross-platform (Android and iOS) then this would present a problem.
