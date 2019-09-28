@@ -22,7 +22,7 @@ Yes. As of Speed Test G 2.0, it is available for Android and iOS. There are two 
 No. Speed Test G 2.0 is a complete re-write and you can't compare the times.
 
 ## 4. Will you be making improvements to the test?
-Abolsultey. First, there was Speed Test G 1.0, then Speed Test G 2.0 and Speed Test GX 2.0. Speed Test 3.0 will be developed at some point.
+Absolutely. First, there was Speed Test G 1.0, then Speed Test G 2.0 and Speed Test GX 2.0. Speed Test 3.0 will be developed at some point.
 
 ## 5. Why don't you do 5/10/50/100 test runs to ensure that the results are consistent?
 Before recording, we do multiple test runs to ensure that the results we are seeing are correct. This includes running the tests from a known
