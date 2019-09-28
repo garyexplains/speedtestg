@@ -18,8 +18,8 @@ The idea is that this test remains independent and trustworthy.
 ## 2. Can Speed Test G run on iOS?
 Yes. As of Speed Test G 2.0, it is available for Android and iOS. There are two versions of Speed Test G 2.0. The vanilla Speed Test G 2.0 (for Android only) and the cross-platform Speed Test GX 2.0 (for Android and iOS). The suites are almost identical except that Speed Test G 2.0 contains two 3D tests, one written in Unity and one written in Unreal. The GX version only has the Unity test. When comparing cross-platform GX times on one platform can be compared to GX times on the other.
 
-## 3. Can you compare the latest Snapdragon with the latest Apple processor?
-Please see question #2.
+## 3. Can the results of Speed Test G 1.0 be compared with the results from Speed Test G 2.0 or Speed Test GX 2.0?
+No. Speed Test G 2.0 is a complete re-write and you can't compared the times.
 
 ## 4. Will you be making improvements to the test?
 Abolsultey. First, there was Speed Test G 1.0, then Speed Test G 2.0 and Speed Test GX 2.0. Speed Test 3.0 will be developed at some point.
