@@ -9,7 +9,7 @@ If you want to see why Speed Test G exists, please watch this video: [5 Reasons 
 Speed Test G was launched in November 2018. In September/October 2019, Speed Test G 2.0 and Speed Test GX 2.0 were launched. For more information about V2.0 please watch these two videos: [Speed Test G 2.0 is Coming SOON!](https://www.youtube.com/watch?v=l8gFcyI2AaY) and [Speed Test G for iOS](https://www.youtube.com/watch?v=Dh6lz4gkgpY).
 
 ## Speed Test G YouTube Channel.
-Speed Test G videos appear on the [Gary Explains](https://youtube.com/c/garyexplains) and also on the dedicated [Speed Test G](https://youtube.com/c/speedtestg) channel. The difference? Major and important Speed Test G videos will be published ion the GE channel, whereas more frequency videos with various combinations and permutations of devices will appear on the Speed Test G channel.
+Speed Test G videos appear on the [Gary Explains](https://youtube.com/c/garyexplains) and also on the dedicated [Speed Test G](https://youtube.com/c/speedtestg) channel. The difference? Major and important Speed Test G videos will be published on the GE channel, whereas videos with various combinations and permutations of devices will appear on the Speed Test G channel. Speed Test G videos are published more frequently on the dedicated channel, often 4 or 5 times per week.
 
 ## 1. Where can I download Speed Test G so I can try it on my device?
 You can't. Sorry. The sole reason is that I don't want smartphone makers to have access to this code and then try to "cheat" the system.
