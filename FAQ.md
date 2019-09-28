@@ -22,7 +22,7 @@ Yes. As of Speed Test G 2.0, it is available for Android and iOS. There are two 
 Please see question #2.
 
 ## 4. Will you be making improvements to the test?
-Abolsultey. This is Speed Test G 1.0. At some point, I will release Speed Test G 2.0. Current aims include greater complexity, Unreal 3D tests alongside the Unity tests, possibly the use of Vulcan, and much more.
+Abolsultey. First, there was Speed Test G 1.0, then Speed Test G 2.0 and Speed Test GX 2.0. Speed Test 3.0 will be developed at some point.
 
 ## 5. Why don't you do 5/10/50/100 test runs to ensure that the results are consistent?
 Before recording, we do multiple test runs to ensure that the results we are seeing are correct. This includes running the tests from a known
@@ -51,19 +51,19 @@ tested. Occasionally, if warranted, we may perform two tests, one with the mode 
 Could be for one of two reasons. 1) The device isn't that interesting. Sorry. 2) But more likely, I don't have access to that device at the moment. I don't have a huge box with every released device which I just open and take the device for the next video. Devices are expensive. Sometimes I can borrow a device. Sometimes my teammates have access to the device and I can use that. Sometimes I need to buy the device and hope to sell it afterwards.
 
 ## 11. Can the app show the individual tests times?
-Changes in that area are coming. Current plans are to show three times alongside the total time: "Mainly CPU", "Mixed CPU/GPU", "Mainly GPU".
+At the moment the test shows the CPU, CPU/GPU (mixed), and GPU times. Those numbers should be sufficient for most people.
 
-## 12. Will you add networking tests?
-That isn't planned for the moment.
+## 12. Will you add sustained performance tests
+Yes. I am planning on making a separate (but similar) test suite for testing throttling and sustained performance. Sustained performance testing will feature in separate videos and not as part of the normal Speed Test G run.
 
 ## 13. Any plans for a battery drain test?
-Not at this time.
+Yes. I am planning on making a separate (but similar) test suite for testing battery life. Battery life testing will feature in separate videos and not as part of the normal Speed Test G run.
 
 ## 14. Speed Test G doesn't test RAM management like other speed tests.
 That is true, it doesn't. At the moment I have no plans to change that, for philosophical and technical reasons. It certainly isn't planned for the Speed Test G 2.0.
 
 ## 15. Shouldn't the taping of the Start button be synchronized somehow (via Bluetooth, at a fixed time, by a laser bouncing off the moon)?
-No. Each device records the total test time internally from with the Speed Test G app. The time reported at the end comes from the app itself, not from an external source, not from the video editing, not from a stopwatch, not from an hourglass. The devices can be started weeks apart but the time result is the same. The only benefit of synchronization is for the video and the "race" aspect of the video. For that, human synchronization is good enough.
+No. Each device records the total test time internally from within the Speed Test G app. The time reported at the end comes from the app itself, not from an external source, not from the video editing, not from a stopwatch, not from an hourglass. The devices can be started weeks apart but the time result is the same. The only benefit of synchronization is for the video and the "race" aspect of the video. For that, human synchronization is good enough.
 
 ## 16. Does the screen resolution affect the performance? If device A has a lower resolution screen, won't it be quicker? Is that fair?
 Absolutely. And since this is a real-world test and not a theoretical test then that is what we are trying to test. If you buy device A,
@@ -90,3 +90,15 @@ During the development of Speed Test G I found some compatibility problems with 
 
 ## 22. What does the SQLite test do and why is it important?
 The SQLite test adds 500 records to an SQLite database and then removes them. SQLite is the most widely deployed database in the world. It is the default way to store persistent data on Android and is used (probably unknown to most users) by hundreds of thousands of apps. Talking of SQLite on Android, the Google developer docs state that, "Apps that handle non-trivial amounts of structured data can benefit greatly from persisting that data locally. The most common use case is to cache relevant pieces of data. That way, when the device cannot access the network, the user can still browse that content while they are offline." In other words, if a device is able to process SQLite transactions quickly then it improves the overall user experience.
+
+## 23. Why don't you include "off-screen" GPU test?
+Because people don't play games off-screen. This is a real-world device test.
+
+## 24. Why do your results show different relative performance numbers compared to the popular benchmark apps?
+It comes down to three things:
+
+1) What are you measuring? If you are measure raw CPU performance, with little access to the memory, lots of L1 and L2 cache hits, little or no access to the IO etc, then you will get a different result than if you are measure overall system performance. Overall system performance will include more memory access, more cache misses, more IO access plus other factors like app start-up time. Same goes with the GPU. Many of these benchmarks use "off-screen" testing to see how the GPU performs when it doesn't need to display the result and regardless of the screen resolution, that is fine, but at a system-level (real-world) level nobody plays games "off-screen". 
+
+2) Can smartphone makers optimize their systems for benchmarks? Absolutely. Some have been caught cheating, by artificially increasing the performance of the CPU/GPU during a benchmark, but even if a manufacturer doesn't do that, you can be sure that it has a lab of people making sure that the device works very, very well for the popular benchmarks, so that they can make % claims during keynotes. See also question #1.
+
+3) Improvements to CPU and GPU processing power never translate to the same increase at a system level as "the system" includes more than just the processor, there is the RAM, the internal storage, the motherboard (with interrupts and buses and IO channels etc), the display driver, the video encoder/decoder, other components of the SoC like the neural engine etc. Bottom line: Speed Test G tests the whole device, not just the CPU or GPU. That is what users will see in the real world.
