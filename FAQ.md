@@ -1,7 +1,7 @@
 # Speed Test G FAQ
 
 Speed Test G is a new performance testing system that takes the best parts of traditional speed tests and combines them with the benefits of benchmarks. For full details of how it works please watch this video: 
-[Speed Test G - A new way to test real life smartphone performance](https://www.youtube.com/watch?v=0dsQiw-G8O8).
+[Speed Test G - A new way to test real-life smartphone performance](https://www.youtube.com/watch?v=0dsQiw-G8O8).
 
 If you want to see why Speed Test G exists, please watch this video: [5 Reasons Why Smartphone Speed Tests Are Fundamentally Flawed](https://www.youtube.com/watch?v=W68nuVxOXaE)
 
@@ -91,7 +91,7 @@ During the development of Speed Test G I found some compatibility problems with 
 ## 22. What does the SQLite test do and why is it important?
 The SQLite test adds 500 records to an SQLite database and then removes them. SQLite is the most widely deployed database in the world. It is the default way to store persistent data on Android and is used (probably unknown to most users) by hundreds of thousands of apps. Talking of SQLite on Android, the Google developer docs state that, "Apps that handle non-trivial amounts of structured data can benefit greatly from persisting that data locally. The most common use case is to cache relevant pieces of data. That way, when the device cannot access the network, the user can still browse that content while they are offline." In other words, if a device is able to process SQLite transactions quickly then it improves the overall user experience.
 
-Update: For Speed Test G 2.0 and Speed Test GX 2.0, the number of records was increased to 750. Additionally the test is run twice using different optiziation settings for SQLite. Specifically the first test run forces the rollback journal to be deleted at the conclusion of each transaction. For the second test the journaling mode uses a write-ahead log instead of a rollback journal to implement transactions. See [SQLite PRAGMA Statements](https://sqlite.org/pragma.html#pragma_journal_mode) for details.
+Update: For Speed Test G 2.0 and Speed Test GX 2.0, the number of records was increased to 750. Additionally, the test is run twice using different optimization settings for SQLite. Specifically, the first test run forces the rollback journal to be deleted at the conclusion of each transaction. For the second test, the journaling mode uses a write-ahead log instead of a rollback journal to implement transactions. See [SQLite PRAGMA Statements](https://sqlite.org/pragma.html#pragma_journal_mode) for details.
 
 ## 23. Why don't you include "off-screen" GPU test?
 Because people don't play games off-screen. This is a real-world device test.
@@ -104,3 +104,6 @@ It comes down to three things:
 2) Can smartphone makers optimize their systems for benchmarks? Absolutely. Some have been caught cheating, by artificially increasing the performance of the CPU/GPU during a benchmark, but even if a manufacturer doesn't do that, you can be sure that it has a lab of people making sure that the device works very, very well for the popular benchmarks, so that they can make % claims during keynotes. See also question #1.
 
 3) Improvements to CPU and GPU processing power never translate to the same increase at a system level as "the system" includes more than just the processor, there is the RAM, the internal storage, the motherboard (with interrupts and buses and IO channels etc), the display driver, the video encoder/decoder, other components of the SoC like the neural engine etc. Bottom line: Speed Test G tests the whole device, not just the CPU or GPU. That is what users will see in the real world.
+
+## 25. Why does one device perform better or worse compared to another device with the same processor?
+A smartphone is more than just its processor. You have to consider the RAM, the internal storage, the motherboard, etc.
