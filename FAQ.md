@@ -16,7 +16,7 @@ You can't. Sorry. The sole reason is that I don't want smartphone makers to have
 The idea is that this test remains independent and trustworthy.
 
 ## 2. Can Speed Test G run on iOS?
-Yes. As of Speed Test G 2.0, it is available for Android and iOS. There are two versions of Speed Test G 2.0. The vanilla Speed Test G 2.0 (for Android only) and the cross-platform Speed Test GX 2.0 (for Android and iOS). The suites are almost identical except that Speed Test G 2.0 contains two 3D tests, one written in Unity and one written in Unreal. The GX version only has the Unity test. When comparing cross-platform, GX times on one platform can be compared to GX times on the other. In other words, you can compare GX times on Android with GX times on iOS.
+Yes. As of Speed Test G 2.0, it is available for Android and iOS. There are two versions of Speed Test G 2.0. The vanilla Speed Test G 2.0 (for Android only) and the cross-platform Speed Test GX 2.0 (for Android and iOS). The suites are almost identical except that Speed Test G 2.0 contains two 3D tests, one written in Unity and one written in Unreal. The GX version only has the Unity test. When comparing cross-platform, GX times on one platform can be compared to GX times on the other. In other words, you can compare GX times on Android with GX times on iOS. See also #26.
 
 ## 3. Can the results of Speed Test G 1.0 be compared with the results from Speed Test G 2.0 or Speed Test GX 2.0?
 No. Speed Test G 2.0 is a complete re-write and you can't compare the times.
@@ -107,3 +107,6 @@ It comes down to three things:
 
 ## 25. Why does one device perform better or worse compared to another device with the same processor?
 A smartphone is more than just its processor. You have to consider the RAM, the internal storage, the motherboard, etc.
+
+## 26. Is it fair to compare iOS with Android? An app written in Java can't be comparted one written in Swift or vice versa.
+If Speed Test GX 2.0 was written using two different languages and two different codebases, then yes, it would be unfair. However, Speed Test GX is written using a cross-platform toolkit that produces native (that means Arm machine code, not Java or some other type of intermediate language) apps for both Android and iOS.
