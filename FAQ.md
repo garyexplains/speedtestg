@@ -109,4 +109,4 @@ It comes down to three things:
 A smartphone is more than just its processor. You have to consider the RAM, the internal storage, the motherboard, etc.
 
 ## 26. Is it fair to compare iOS with Android? An app written in Java can't be comparted one written in Swift or vice versa.
-If Speed Test GX 2.0 was written using two different languages and two different codebases, then yes, it would be unfair. However, Speed Test GX is written using a cross-platform toolkit that produces native (that means Arm machine code, not Java or some other type of intermediate language) apps for both Android and iOS.
+If Speed Test GX 2.0 was written using two different languages and two different codebases, then yes, it would be unfair. However, Speed Test GX is written using a cross-platform toolkit that produces native (that means Arm machine code, not Java or some other type of intermediate language) apps for both Android and iOS. There is one codebase. The cross-platform toolkit is equally optimized for iOS and for Android, one isn't more or less optimized than the other.
