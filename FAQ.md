@@ -62,7 +62,7 @@ Yes. I am planning on making a separate (but similar) test suite for testing bat
 ## 14. Speed Test G doesn't test RAM management like other speed tests.
 That is true, it doesn't. At the moment I have no plans to change that, for philosophical and technical reasons. It certainly isn't planned for the Speed Test G 3.0.
 
-## 15. Shouldn't the taping of the Start button be synchronized somehow (via Bluetooth, at a fixed time, by a laser bouncing off the moon)?
+## 15. Shouldn't the tapping of the Start button be synchronized somehow (via Bluetooth, at a fixed time, by a laser bouncing off the moon)?
 No. Each device records the total test time internally from within the Speed Test G app. The time reported at the end comes from the app itself, not from an external source, not from the video editing, not from a stopwatch, not from an hourglass. The devices can be started weeks apart but the time result is the same. The only benefit of synchronization is for the video and the "race" aspect of the video. For that, human synchronization is good enough.
 
 ## 16. Does the screen resolution affect the performance? If device A has a lower resolution screen, won't it be quicker? Is that fair?
