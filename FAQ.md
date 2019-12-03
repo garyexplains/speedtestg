@@ -113,3 +113,17 @@ If Speed Test GX 2.0 was written using two different languages and two different
 
 ## 27. I have played XYZ on Device A and it is better than on Device B, but your test shows otherwise. Why is that?
 While I don't suggest that your experience is incorrect, it is subjective and in no way quantifiable. You have no way to determine even the graphic settings on Device A compared to B, or if the "high" graphics settings are the same on one platform/device compared to the other. You can't guarantee that the textures and models used on one device (or platform) is the same as on the other. Speed Test G is controlled, measured and accurate. For the sake of gameplay speed, app creators will change lots of stuff on one platform compared to another to improve gameplay while reducing other factors and features. Unless you do a pixel by pixel comparison of the same moment shown on two devices you can't make any claims about the power of the processor, only that the app works differently on each device.
+
+## 28. Speed Test G shows the GPU in Device XYZ is slow, but I can play 3D at the highest settings on that phone, your test must be broken!
+Comparing the GPU tests of Speed Test G with games (and gameplay) isn't a good idea. The whole point of games is to offer smooth gameplay, often at the cost of other things like details, textures, lighting, etc. The GPU tests for Speed Test G are designed deliberately to be hard for the GPU, to see what the GPU can handle.
+
+Also, note that the "high settings" on one device will likely be different from the "high settings" on another device. These settings are often relative to the detected hardware. The game developer isn't going to offer settings that will cripple the gameplay.
+
+## 29. In Speed Test G 2.0, Device A had a higher FPS in the smoke particle test than Device B, but yet it lost in GPU tests, how?
+The smoke particle test is a 2D test. The Unity and Unreal tests are 3D tests. There is a significant difference in how the GPU handles 2D work and 3D work. That is why there are both types of test.
+
+## 30. My device didn't win. Your test must be flawed!
+LOL
+
+## 31. Are you sure your test is optimized for my device?
+Speed Test G isn't "optimized" for any particular device or processor. The test is written using standard tools and libraries (like Unity) and the same test runs on every device. Any lacks or possible underperformance are due to the device, not the test.
