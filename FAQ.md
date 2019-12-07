@@ -127,3 +127,10 @@ LOL
 
 ## 31. Are you sure your test is optimized for my device?
 Speed Test G isn't "optimized" for any particular device or processor. The test is written using standard tools and libraries (like Unity) and the same test runs on every device. Any lacks or possible underperformance are due to the device, not the test.
+
+## Devices which don't work with Speed Test G
+I am adding this section because of the Mate 30 and Mate 30 Pro. These devices use the Kirin 990, but due to the USA's ban on Huawei, these devices don't have Google's services like the Play Store, etc.
+
+I tried installing Speed Test G on the Mate 30 and Mate 30 Pro, but it didn't work. Since this is a fairly unique device, with a unique configuration, I didn't spend any more time trying to find out why.
+
+If I find more devices that don't work with the test then I will update this section.
