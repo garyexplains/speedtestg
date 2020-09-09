@@ -10,8 +10,7 @@ And again. And again. Until the battery goes flat.
 For each iteration, the total time for running Speed Test G is noted. Afterwards, this data is collated and used to generate the graphs.
 
 ## 2. Can you record the temperature, that would be useful?
-Unfrotnaly there is no standard way to measure the temperature of an Android device. There is an Android API to get the temperature but...
-1) Implementations vary from device to device, meaning what temperature is reported is different on each d3evice. Could be the CPU temperature or the room temperature
+Unfrotnaly there is no standard way to measure the temperature of an Android device. There is an Android API to get the temperature but... 1) Implementations vary from device to device, meaning what temperature is reported is different on each d3evice. Could be the CPU temperature or the room temperature
 or the temperature somewhere else in the device (but not near the CPU). 2) This API was deprecated in Android 4.0 (API Level 14).
 
 ## 3. Can't you use some other method to get the temperature?
