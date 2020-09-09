@@ -20,3 +20,6 @@ about which temperature is being reported.
 ## 4. Can't you measure the temperature manually
 Theoretically yes, but since these tests take several hours to run that would be a labor-intensive task. Ideally in a full lab set up there could be some automatic temperature
 monitoring using an Arduino or Raspberry Pi, but I don't have a full lab setup.
+
+## 5. Why is the graph upside down?
+It is intentional. It looks better and it means that the fastest phone is on top and decreases in performance show the line going down, so down = decrease.
